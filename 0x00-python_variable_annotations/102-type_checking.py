@@ -8,11 +8,9 @@ from typing import Tuple, List
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Returns a list of integers multiplied by certain factor.
-
     Args:
         lst: A tuple of integers.
         factor: An integer.
-
     Returns:
         A list of integers.
     """

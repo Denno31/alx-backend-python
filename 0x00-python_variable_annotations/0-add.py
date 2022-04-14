@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
+"""Module that contains a single function that adds two integers."""
 
-"""
-this fucntion a type-annotated function add that takes a float a and a float b as arguments and returns their sum as a float.
-"""
 
-# type-annotated function add that takes a float a and a float b as arguments and returns their sum as a float
 def add(a: float, b: float) -> float:
+    """ Add two integers together."""
     return a + b
-
